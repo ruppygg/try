@@ -1,0 +1,98 @@
+body {
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  float: left;
+}
+
+.logo img {
+  height: 30px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #421A0B;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+hero {
+  background-image: url('background.jpg');
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+  color: #fff;
+  padding: 100px 0;
+}
+
+hero h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+hero p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+hero .btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+search {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+search input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+footer .social {
+  margin-bottom: 20px;
+}
+
+footer .social img {
+  height: 20px;
+  margin-right: 10px;
+}
+
+footer p {
+  font-size: 12px;
+}
